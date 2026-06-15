@@ -1,0 +1,6 @@
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#EEF4EE</item>
+    </style>
+</resources>
+
