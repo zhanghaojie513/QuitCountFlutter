@@ -8,7 +8,7 @@
 
 - 原型目录：`C:\Users\haiha\Documents\Codex\2026-06-10\c-users-haiha-documents-codex-2026\work\quit-smoking-prototype-preview`
 - 验证截图目录：`qa\screenshots\full-validation`
-- 固定移动端验收尺寸：390 x 844
+- 核心移动端验收基准：390 x 844。该尺寸用于对齐原型，不代表实现时固定页面宽高。
 
 ## 当前范围
 
@@ -20,4 +20,4 @@
 
 当前可通过 `F:\flutter\bin\flutter.bat` 运行 Flutter 3.44.1 / Dart 3.12.1。`flutter` 和 `dart` 尚未加入系统 PATH；如需直接使用命令名，可把 `F:\flutter\bin` 加入 PATH。
 
-Android SDK 当前未被 Flutter 检测到，Android 真机构建/模拟器运行需安装 Android Studio 或配置已有 SDK 路径。
+Android SDK 已配置为 `F:\Android\Sdk`。当前 Android 构建仍需补齐 SDK Command-line Tools、确认 Android licenses，并解决 Gradle 分发包下载超时后再补验 APK/模拟器运行。
