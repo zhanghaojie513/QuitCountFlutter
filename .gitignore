@@ -1,4 +1,4 @@
-.idea/
+﻿.idea/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -18,3 +18,8 @@ local.properties
 *.iml
 *.jks
 *.keystore
+
+# JVM crash logs and debug logs
+hs_err_pid*.log
+replay_pid*.log
+gradle-assemble-debug.log
