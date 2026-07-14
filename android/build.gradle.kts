@@ -1,5 +1,8 @@
 allprojects {
     repositories {
+        maven {
+            url = uri(rootProject.layout.projectDirectory.dir(".gradle/flutter-engine-cache"))
+        }
         google()
         mavenCentral()
     }
